@@ -94,7 +94,7 @@ async function searchLetter(term) {
   $(".inner-loading").fadeOut(200);
 }
 
-function getInputs() {
+function getInputSearch() {
   closeBar();
 
   rowInput.innerHTML = `
